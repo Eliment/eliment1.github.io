@@ -6,7 +6,7 @@ const treasure = (location)=> {
      if(treasureLocation === location){
         document.getElementById(location).innerHTML = "💰"
         alert ("You Win!")  // experimental auto reload of game after a win next line
-      window.location = 'file:///C:/Users/Papo/Desktop/jumpstart/index.html';
+      window.location = 'https://eliment.github.io/rod.github.io/';
 
      
      } 
@@ -18,7 +18,7 @@ const treasure = (location)=> {
 
         
        alert("You lose!")  //testing reload function after losing on next line
-        window.location = 'file:///C:/Users/Papo/Desktop/jumpstart/index.html';
+        window.location = 'https://eliment.github.io/rod.github.io/';
 }
      else {
         document.getElementById(location).innerHTML = "🙈" 
